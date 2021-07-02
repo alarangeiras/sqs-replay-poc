@@ -1,0 +1,21 @@
+{
+  "name": "sqs-replay-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config ./src/index.js",
+    "start2": "node -r dotenv/config ./src/index2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.19.0",
+    "@aws-sdk/credential-provider-ini": "^3.19.0",
+    "aws-sdk": "^2.938.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
